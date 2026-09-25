@@ -666,6 +666,7 @@ ul {
     border: 1px solid #1f1f2e;
     padding: 20px;
     text-align: center;
+    transition: 0.3s;
 }
 
 .contact-card:hover {
@@ -690,6 +691,11 @@ ul {
     border: 1px solid #1f1f2e;
     border-radius: 10px;
     padding: 25px;
+    transition: 0.3s;
+}
+
+.contact-form-wrap:hover {
+    border-color: #7c3aed;
 }
 
 .contact-form {
@@ -735,7 +741,7 @@ ul {
 }
 
 .btn-submit:hover {
-    background-color: #7c3aed;
+    background-color: #af89f1;
 }
 
 @media (min-width: 768px) {
